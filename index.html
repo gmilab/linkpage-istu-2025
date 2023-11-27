@@ -32,26 +32,30 @@
     <link rel="icon" type="image/png" href="images/logo_square.png" />
 
     <style>
-        .bflex {
-            display: inline-flex;
-            flex-wrap: wrap;
-            justify-content: left;
-            align-items: center;
-        }
-
-        .bflex img {
-            margin-left: 2em;
-        }
-
-        .bflex div {
-            font-size: small;
-            text-align: left;
-            margin-left: 1em;
-            font-weight: normal;
-        }
-
         body {
             margin: 75px auto;
+        }
+
+        .card {
+            margin-top: 3em;
+        }
+
+        .cflex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0.5em;
+        }
+
+        .cflex a {
+            margin: 0 0.8em;
+        }
+
+        a img {
+            margin: auto;
+            vertical-align: middle;
+            display: inline-block;
         }
     </style>
 
@@ -109,22 +113,81 @@
                 <a class="button button-github" href="https://github.com/gmilab/electrode_localizer" target="_blank"
                     rel="noopener" role="button"><img class="icon" src="images/icons/github.svg"
                         alt=""><small>gmilab/electrode_localizer</small></a><br>
+
+
                 <hr>
-                <a class="button button-vrchat bflex" href="mailto:george.ibrahim@sickkids.ca" target="_blank"
-                    rel="noopener" role="button">
-                    <img class="icon" src="images/icons/email2.svg" alt="">
-                    <div><b>George Ibrahim</b><br>george.ibrahim@sickkids.ca</div>
-                </a><br>
-                <a class="button button-vrchat bflex" href="mailto:fay.kisteroff@sickkids.ca" target="_blank" rel="noopener"
-                    role="button"><img class="icon" src="images/icons/email2.svg"
-                        alt="">
-                        <div><b>Fay Kisteroff</b><br>Project coordinator<br>fay.kisteroff@sickkids.ca</div></a><br>
-                <a class="button button-vrchat bflex" href="mailto:myloi.huynh@sickkids.ca" target="_blank" rel="noopener"
-                    role="button"><img class="icon" src="images/icons/email2.svg" alt=""><div><b>MyLoi Huynh</b><br>Project coordinator<br>myloi.huynh@sickkids.ca</div></a><br>
-                <a class="button button-vrchat bflex" href="mailto:rafi.matin@sickkids.ca" target="_blank" rel="noopener"
-                    role="button"><img class="icon" src="images/icons/email2.svg" alt=""><div><b>Rafi Matin</b><br>MSc student<br>rafi.matin@sickkids.ca</div></a><br>
-                <a class="button button-vrchat bflex" href="mailto:simeon.wong@sickkids.ca" target="_blank" rel="noopener"
-                    role="button"><img class="icon" src="images/icons/email2.svg" alt=""><div><b>Simeon Wong</b><br>PhD candidate<br>simeon.wong@sickkids.ca</div></a><br>
+                <div class="card">
+                    <b>George Ibrahim</b>
+                    <br>
+                    <small>
+                        Staff surgeon, Senior scientist, Professor<br>
+                        <a href="mailto:george.ibrahim@sickkids.ca">george.ibrahim@sickkids.ca</a>
+                    </small>
+                    <div class="cflex">
+                        <a href="mailto:george.ibrahim@sickkids.ca" target="_blank"><img src="images/icons/email2.svg"
+                                style="width: 1.1em"></a>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Ibrahim+GM&sort=pubdate" target="_blank"><img src="images/icons/pubmed.svg"
+                                style="width: 1.1em"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <b>Fay Kisteroff</b>
+                    <br>
+                    <small>
+                        Project coordinator<br>
+                        <a href="mailto:fay.kisteroff@sickkids.ca">fay.kisteroff@sickkids.ca</a>
+                    </small>
+                    <div class="cflex">
+                        <a href="mailto:fay.kisteroff@sickkids.ca" target="_blank"><img src="images/icons/email2.svg"
+                                style="width: 1.1em"></a>
+                        <a href="https://www.linkedin.com/in/faykisteroff" target="_blank"><img
+                                src="images/icons/LI-In-Bug.png" style="height: 1em"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <b>MyLoi Huynh</b>
+                    <br>
+                    <small>
+                        Project coordinator<br>
+                        <a href="mailto:myloi.huynh@sickkids.ca">myloi.huynh@sickkids.ca</a>
+                    </small>
+                    <div class="cflex">
+                        <a href="mailto:myloi.huynh@sickkids.ca" target="_blank"><img src="images/icons/email2.svg"
+                                style="width: 1.1em"></a>
+                        <!-- <a href="https://www.linkedin.com/in/faykisteroff" target="_blank"><img
+                                src="images/icons/LI-In-Bug.png" style="height: 1em"></a> -->
+                    </div>
+                </div>
+                <div class="card">
+                    <b>Rafi Matin</b>
+                    <br>
+                    <small>
+                        MSc student, Medical Sciences<br>
+                        <a href="mailto:rafi.matin@sickkids.ca">rafi.matin@sickkids.ca</a>
+                    </small>
+                    <div class="cflex">
+                        <a href="mailto:rafi.matin@sickkids.ca" target="_blank"><img src="images/icons/email2.svg"
+                                style="width: 1.1em"></a>
+                        <!-- <a href="https://www.linkedin.com/in/faykisteroff" target="_blank"><img
+                                src="images/icons/LI-In-Bug.png" style="height: 1em"></a> -->
+                    </div>
+                </div>
+                <div class="card">
+                    <b>Simeon Wong</b>
+                    <br>
+                    <small>
+                        PhD candidate, Biomedical Engineering<br>
+                        <a href="mailto:simeon.wong@sickkids.ca">simeon.wong@sickkids.ca</a>
+                    </small>
+                    <div class="cflex">
+                        <a href="mailto:simeon.wong@sickkids.ca" target="_blank"><img src="images/icons/email2.svg"
+                                style="width: 1.1em"></a>
+                        <a href="https://orcid.org/0000-0001-9070-0665" target="_blank"><img
+                                src="images/icons/ORCIDiD_iconvector.svg" style="height: 1em"></a>
+                        <a href="https://www.linkedin.com/in/simeonwong" target="_blank"><img
+                                src="images/icons/LI-In-Bug.png" style="height: 1em"></a>
+                    </div>
+                </div>
 
 
             </div>

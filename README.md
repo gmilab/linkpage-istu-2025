@@ -1,5 +1,5 @@
-# Ibraham Lab @ SFN 2024
-Networking tool to quickly point others to our presence at AES 2023, including posters, presentations, and a link to the GitHub, and our contact info.
+# Ibraham Lab @ AES 2024
+Networking tool to quickly point others to our presence at AES 2024, including posters, presentations, and a link to the GitHub, and our contact info.
 Powered by LittleLink and GitHub Pages.
 
 ## LittleLink

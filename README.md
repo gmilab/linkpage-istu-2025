@@ -1,5 +1,5 @@
-# Ibraham Lab @ AES 2024
-Networking tool to quickly point others to our presence at AES 2024, including posters, presentations, and a link to the GitHub, and our contact info.
+# Ibraham Lab @ ISTU 2025
+Networking tool to quickly point others to our presence at the meeting, including posters, presentations, and a link to the GitHub, and our contact info.
 Powered by LittleLink and GitHub Pages.
 
 ## LittleLink
